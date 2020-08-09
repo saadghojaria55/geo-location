@@ -6,10 +6,10 @@
 
 <button onclick="getLocation()">Try It</button>
 
-<p id="demo"></p>
+<p id="demo1"></p>
 
 <script>
-var x = document.getElementById("demo");
+var x = document.getElementById("demo1");
 
 function getLocation() {
   if (navigator.geolocation) {
